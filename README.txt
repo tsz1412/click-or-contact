@@ -1,13 +1,12 @@
-=== Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://tsz-dev.com
-Tags: comments, spam
+=== Call or Contact ===
+Contributors: Tsviel Zaikman
+Tags: Concatct us, sticky navigation, seo, call now, call button, mobile call button
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
+~Current Version:1.4~
 Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
 
 == Description ==
@@ -19,23 +18,11 @@ Markdown parsed.
 
 A few notes about the sections above:
 
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
-
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
-
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+This plugin provides you with an fixed sticky navigation bar at the bottom of your page in mobile view.
+In this bar you will be able to add 2 buttons:
+	1. Contact us - Which can be redirected to contact us page
+	2. Call us - Which can be linked to phone number in order to make phone call with the pointed phone
+	
 
 == Installation ==
 
@@ -43,9 +30,13 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `call-or-contact.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Extract to your `/wp-content/plugins/` directory.
+
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+
+3. Go to the plugin's menu and set your preferences for the sticky bar.
+
+4. Enjoy
 
 == Frequently Asked Questions ==
 
